@@ -2,8 +2,8 @@
 pragma solidity ^0.8.20;
 
 contract AllyToken {
-    string public name = "ALLY";
-    string public symbol = "ALLY";
+    string public name = "Neora";
+    string public symbol = "Neora";
     uint8 public decimals = 18;
     uint256 public totalSupply;
 

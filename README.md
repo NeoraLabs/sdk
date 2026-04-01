@@ -1,4 +1,4 @@
-# 🚀 Neora
+# 🚀 Neora : 2EQKdrbTeWDgWN8T3G4rXv2KcoVy2RvC1dNsBsQSpump
 
 **AI agent connects to your wallet and learns your preferences. Start shopping and trading immediately.**
 

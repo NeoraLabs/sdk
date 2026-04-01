@@ -1,146 +1,89 @@
-# 🌟 ALLY
+# 🚀 Neora
 
-> Every developer deserves a little $ALLY to brighten their day.
-
----
-
-## 🚀 Overview
-
-ALLY is a community-driven crypto initiative designed to support, reward, and uplift developers around the world.
-Built with simplicity and positivity at its core, $ALLY brings small but meaningful value to every builder’s journey.
+**AI agent connects to your wallet and learns your preferences. Start shopping and trading immediately.**
 
 ---
 
-## 💡 Vision
+## ✨ Overview
 
-To create a supportive ecosystem where developers are appreciated, rewarded, and empowered through decentralized technology.
-
----
-
-## ⚡ Key Features
-
-* 💸 Micro Rewards
-  Small tokens, big motivation — reward developers effortlessly.
-
-* 🌐 Community Driven
-  Built by devs, for devs.
-
-* 🔗 Web3 Integration
-  Seamlessly integrates into decentralized ecosystems.
-
-* 🎯 Simple & Accessible
-  No complexity — just pure utility and good vibes.
+Neora is an intelligent AI agent that seamlessly connects to your wallet and adapts to your behavior.  
+It learns your preferences over time to deliver smarter shopping and trading experiences.
 
 ---
 
-## 🪙 Token Concept
+## ⚡ Features
 
-$ALLY represents:
-
-* Support 🤝
-* Appreciation 💙
-* Motivation 🚀
-
-Not just a token — it’s a gesture.
-
----
-
-## 🛠️ Use Cases
-
-* Reward open-source contributors
-* Incentivize developers in communities
-* Tip for helpful code, tools, or ideas
-* Engagement in Web3 ecosystems
+- 🔗 Seamless Wallet Integration
+- 🧠 AI-Powered Personalization
+- 🛒 Smart Shopping Recommendations
+- 📈 Trading Insights & Assistance
+- 🔐 Privacy-First Design
+- ⚙️ Real-Time Learning Engine
 
 ---
 
-## 📦 Project Structure
+## 🧩 How It Works
 
-```
-ALLY/
-├── contracts/        # Smart contracts
-├── scripts/          # Deployment & utility scripts
-├── docs/             # Documentation
-├── frontend/         # Optional UI
-├── README.md
-└── package.json
-```
+1. Connect your wallet  
+2. Let Neora learn your activity  
+3. Receive personalized suggestions  
+4. Start shopping and trading instantly  
 
 ---
 
-## ⚙️ Getting Started
+## 🛠️ Tech Stack
 
-### 1. Clone Repository
+- Artificial Intelligence (AI)
+- Web3 Integration
+- Smart Contracts
+- Data Learning Systems
+
+---
+
+## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/yourusername/ALLY.git
-cd ALLY
-```
-
-### 2. Install Dependencies
-
-```bash
+git clone https://github.com/yourusername/neora.git
+cd neora
 npm install
-```
-
-### 3. Run Project
-
-```bash
 npm run dev
 ```
 
 ---
 
-## 🔐 Smart Contract (Example)
+## 🔐 Security
 
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+Neora is built with security and privacy in mind:
 
-contract AllyToken {
-    string public name = "ALLY";
-    string public symbol = "ALLY";
-    uint256 public totalSupply = 1000000 * 10**18;
-
-    mapping(address => uint256) public balanceOf;
-
-    constructor() {
-        balanceOf[msg.sender] = totalSupply;
-    }
-
-    function transfer(address to, uint256 amount) public returns (bool) {
-        require(balanceOf[msg.sender] >= amount, "Not enough balance");
-        balanceOf[msg.sender] -= amount;
-        balanceOf[to] += amount;
-        return true;
-    }
-}
-```
+- End-to-end encrypted interactions  
+- No unnecessary data storage  
+- Full user control over permissions  
 
 ---
 
-## 🌍 Roadmap
+## 🌐 Vision
 
-* [ ] Token Launch
-* [ ] Community Building
-* [ ] Developer Reward System
-* [ ] Web3 Integrations
-* [ ] DAO Governance
+To create the ultimate AI-powered Web3 assistant  
+that simplifies digital ownership, trading, and online shopping.
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions from everyone!
+Contributions are welcome!
 
-1. Fork the repo
-2. Create your feature branch
-3. Commit your changes
-4. Push and submit a PR
+```bash
+fork → clone → commit → push → pull request
+```
 
 ---
 
-## 💬 Final Note
+## 📄 License
 
-A small token can spark big ideas.
-Keep building — $ALLY is with you. 💙
+MIT License
+
+---
+
+## 💡 Tagline
+
+**"Your wallet. Your AI. Your advantage."**

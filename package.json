@@ -1,7 +1,7 @@
 {
-  "name": "ally",
+  "name": "Neora",
   "version": "1.0.0",
-  "description": "ALLY Token Project",
+  "description": "Neora Token Project",
   "scripts": {
     "test": "npx hardhat test",
     "compile": "npx hardhat compile",

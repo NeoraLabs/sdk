@@ -1,6 +1,6 @@
 const { expect } = require("chai");
 
-describe("AllyToken", function () {
+describe("Neora", function () {
   it("Should deploy and assign total supply", async function () {
     const AllyToken = await ethers.getContractFactory("AllyToken");
     const token = await AllyToken.deploy(1000);
@@ -12,7 +12,7 @@ describe("AllyToken", function () {
   });
 
   it("Should transfer tokens", async function () {
-    const AllyToken = await ethers.getContractFactory("AllyToken");
+    const AllyToken = await ethers.getContractFactory("Neora");
     const token = await AllyToken.deploy(1000);
 
     const [owner, addr1] = await ethers.getSigners();
